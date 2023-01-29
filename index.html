@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag n Drop Little Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>Please, match the Regular Adjectives with the appropriate extreme Adjectives.</p>
+        <div class="row">
+            <span>Regular Adjectives:</span>
+            <div id="good" draggable="true" class="col active">
+               <span>Good</span>
+            </div>
+            <div id="big" class="col active" draggable="true">
+               <span>Big</span> 
+            </div>
+            <div id="small" class="col active" draggable="true">
+               <span>Small</span> 
+            </div>
+            <div id="tired" class="col active" draggable="true">
+               <span>Tired</span> 
+            </div>
+            <div id="hungry" class="col active" draggable="true">
+               <span>Hungry</span> 
+            </div>
+            <div id="dirty" class="col active" draggable="true">
+               <span>Dirty</span> 
+            </div>
+        </div>
+        <div class="row">
+            <span>Extreme Adjectives:</span>
+            <div id="filthy" class="col">
+               <span>Filthy</span> 
+            </div>
+            <div id="terrific" class="col">
+               <span>Terrific</span> 
+            </div>
+            <div id="starving" class="col">
+               <span>Starving</span> 
+            </div>
+            <div id="exhausted" class="col">
+               <span>Exhausted</span> 
+            </div>
+            <div id="tiny" class="col">
+               <span>Tiny</span> 
+            </div>
+            <div id="huge" class="col">
+               <span>Huge</span> 
+            </div>
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
