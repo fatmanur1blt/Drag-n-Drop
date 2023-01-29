@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#cccccc;
+}
+.container{
+    border:1px solid #fff;
+    width:800px;
+    height:300px;
+    margin-top:50px;
+}
+p{
+    text-align:center;
+    margin-bottom:60px;
+}
+.col{
+    border: 2px solid #000;
+    margin:15px;
+    text-align:center;
+}
+.active{
+    cursor:move;
+}
+.passive{
+    display:none;
+}
+.hover{
+    background-color:#ffc300;
+}
+.start{
+    background-color:#fff;
+}
+.end{
+    background-color:#cccccc;
+}
+.drop{
+    background-color:#ff9500;
+}
